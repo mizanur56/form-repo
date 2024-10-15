@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>travelreserve</title>
+    <style>
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+      .code {
+        margin-top: 10px;
+      }
+      header {
+        font-size: larger;
+        font-weight: bolder;
+      }
+    </style>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <header><h2>Travel reservation form</h2></header>
+    <main>
+      <section>
+        <h3>Denotes Mandatory</h3>
+        <form>
+          <label for="name"
+            >Your Full Name:
+            <input type="" name="" id="name" placeholder="Your full name" />
+          </label>
+          <label for="email"
+            >Your Email
+            <input
+              type="text"
+              name=""
+              id="Email Address"
+              placeholder="Your Email"
+            />
+          </label>
+          <label for="person"
+            >Number of Person:
+            <input
+              type="text"
+              name=""
+              id="number of person"
+              placeholder="Unknown Type"
+            />
+          </label>
+          <fieldset>
+            <legend>Pick One</legend>
+            <label for="Plain rice">
+              <input type="radio" name="rice" id="" />Plain rice
+            </label>
+            <label for="Chicken Birani">
+              <input type="radio" name="rice" id="" />Chicken Birani
+            </label>
+            <label for="Beef Birani">
+              <input type="radio" name="rice" id="" />Beef Birani
+            </label>
+            <label for="Kacchi">
+              <input type="radio" name="rice" id="" />Kacchi
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>What would you want to avail</legend>
+            <label for="Boarding"
+              >Boarding
+              <input type="checkbox" name="" id="Boarding" />
+            </label>
+            <label for="Fooding"
+              >Fooding
+              <input type="checkbox" name="" id="Fooding" />
+            </label>
+            <label for="seeing"
+              >Sight seeing
+              <input type="checkbox" name="" id="Sight seeing" />
+            </label>
+          </fieldset>
+          <label for=""
+            >Discount Coupon code:
+            <input
+              class="code"
+              type="text"
+              name=""
+              id="coupon code"
+              placeholder="Unknown Type"
+            />
+          </label>
+          <label for="">
+            <button type="submit">submit</button>
+          </label>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
